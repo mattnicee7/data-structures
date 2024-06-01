@@ -48,20 +48,20 @@ public class TADFirstExample {
 
             if (value < 0) {
                 value = 0;
-                System.out.println("valor menor que zero, corrigido pra zero");
+                System.out.println("Value less than zero, corrected to zero.");
             } else if (value > 40 && value < 60) {
 
                 if (value < 50) {
                     value = 40;
-                    System.out.println("valor no intervalo nao suportado, corrigido pra 40");
+                    System.out.println("Value in unsupported range, corrected to 40.");
                 } else {
                     value = 60;
-                    System.out.println("valor no intervalo nao suportado, corrigido pra 60");
+                    System.out.println("Value in insupported range, corrected to 60.");
                 }
 
             } else if (value > 100) {
                 value = 100;
-                System.out.println("valor maior que 100, corrigido pra 100");
+                System.out.println("Value greater than 100, corrected to 100.");
             }
 
             this.value = value;
